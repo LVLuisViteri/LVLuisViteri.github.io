@@ -1,0 +1,67 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Color de fondo gris claro */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el encabezado (h1) */
+h1 {
+    color: #0077b6; /* Color de texto azul */
+    margin-top: 20px;
+}
+
+/* Estilo para el menú de navegación (nav) */
+nav {
+    background-color: #0077b6; /* Color de fondo azul */
+    margin-top: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+nav a:hover {
+    color: #00557a; /* Cambio de color al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para la lista ordenada (ol) */
+ol {
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 30px; /* Añade un margen izquierdo para la lista */
+}
+
+/* Estilo para la lista no ordenada (ul) */
+ul {
+    list-style-type: square; /* Cambia el estilo de viñetas a cuadrados */
+    text-align: left; /* Alinea el texto a la izquierda */
+    margin-left: 30px; /* Añade un margen izquierdo para la lista */
+}
+
+/* Estilo para los elementos de lista (li) */
+li {
+    margin-bottom: 5px; /* Añade espacio entre los elementos de la lista */
+}
+
+/* Estilo para elementos con etiquetas de negrita (b) */
+b {
+    font-weight: bold; /* Hace que el texto en negrita sea más audaz */
+}

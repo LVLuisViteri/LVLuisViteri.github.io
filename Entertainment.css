@@ -1,0 +1,84 @@
+/* Estilo para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #060606; /* Color de fondo gris claro */
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilo para el encabezado (h1) */
+h1 {
+    color: #0077b6; /* Color de texto azul */
+    margin-top: 20px;
+}
+
+/* Estilo para el menú de navegación (nav) */
+nav {
+    background-color: #0077b6; /* Color de fondo azul */
+    margin-top: 20px;
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff; /* Color de texto blanco */
+    font-weight: bold;
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+nav a:hover {
+    color: #00557a; /* Cambio de color al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para los enlaces de entretenimiento */
+a {
+    text-decoration: none;
+    color: #ffffff; /* Color de texto negro */
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    transition: transform 0.3s; /* Transición suave para la transformación */
+}
+
+a:hover {
+    transform: scale(1.1); /* Cambio de escala al pasar el mouse sobre los enlaces */
+}
+
+/* Estilo para los títulos de entretenimiento (h2, h3, h4) */
+h2, h3, h4 {
+    margin-top: 10px;
+}
+
+/* Estilo para la imagen de cines */
+.imagenCines img {
+    border-radius: 20px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0px 0px 50px rgba(150, 38, 38, 0.5); /* Sombra suave para las imágenes */
+    width: 50%;
+}
+
+/* Estilo para la imagen de teatros */
+.imagenTeatros img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0px 0px 50px rgba(150, 38, 38, 0.5); /* Sombra suave para las imágenes */
+    width: 60%;
+}
+
+/* Estilo para la imagen de museos */
+.imagenMuseos img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0px 0px 50px rgba(150, 38, 38, 0.5); /* Sombra suave para las imágenes */
+    width: 40%;
+}
